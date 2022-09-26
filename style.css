@@ -139,6 +139,10 @@
   }
   .card {
     width: 60vw;
+    height: 40vh;
     margin-bottom: 5rem;
+  }
+  .card-text {
+    margin: 1rem;
   }
 }
