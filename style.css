@@ -112,3 +112,31 @@
   font-size: 1rem;
   font-weight: 200;
 }
+@media screen and (max-width: 412px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+  .header {
+    padding: 5rem 2rem;
+  }
+  .search {
+    width: 8rem;
+    padding: 1rem;
+  }
+  .btn {
+    width: 5rem;
+    height: 5rem;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .card {
+    width: 60vw;
+    margin-bottom: 5rem;
+  }
+}
