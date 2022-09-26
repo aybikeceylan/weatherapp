@@ -78,6 +78,7 @@
   width: 100%;
   padding: 2rem;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: flex-start;
   gap: 0.8rem;
@@ -131,7 +132,7 @@
   }
   .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     overflow-y: auto;
     overflow-x: hidden;
   }
