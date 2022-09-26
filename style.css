@@ -120,7 +120,7 @@
     background-size: cover;
   }
   .header {
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
   }
   .search {
     width: 8rem;
@@ -136,11 +136,12 @@
     align-items: flex-end;
     overflow-y: auto;
     overflow-x: hidden;
+    padding: 0 2rem 5rem 2rem;
   }
   .card {
     width: 60vw;
-    height: 40vh;
-    margin-bottom: 5rem;
+    height: 80vh;
+    margin-bottom: 8rem;
   }
   .card-text {
     margin: 1rem;
