@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container {
-  width: 100wv;
+  width: 100vw;
   height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
   background-position: center;
@@ -20,13 +20,13 @@
   opacity: 0.8;
   border-radius: 5rem;
   width: 70vw;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 .header {
-  padding: 5rem;
+  padding: 3rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@
   outline: none;
   appearance: none;
   border-style: none;
-  width: 35rem;
+  width: 45rem;
   height: 5rem;
   border-radius: 2.5rem;
   background-color: rgba(77, 64, 71, 0.699);
@@ -74,7 +74,7 @@
 }
 
 .main {
-  height: 30rem;
+  height: 20rem;
   width: 100%;
   padding: 2rem;
   display: flex;
@@ -119,28 +119,33 @@
     height: 100vh;
     background-size: cover;
   }
+  .section {
+    height: 95vh;
+  }
   .header {
     padding: 3rem 2rem;
   }
   .search {
-    width: 8rem;
-    padding: 1rem;
+    width: 12rem;
+    padding: 0.5rem;
+    height: 3rem;
   }
   .btn {
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
   }
   .main {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-    overflow-y: auto;
-    overflow-x: hidden;
+    height: 80%;
+    overflow: scroll;
+    /* overflow-x: hidden; */
     padding: 0 2rem 5rem 2rem;
   }
   .card {
-    width: 60vw;
-    height: 80vh;
+    width: 55vw;
+    height: 60vh;
     margin-bottom: 8rem;
   }
   .card-text {
